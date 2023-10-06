@@ -309,7 +309,8 @@ class LayerManager implements LayerManagerIface {
     });
 
     // update active layer
-    this.activeLayerIndex = to;
+    // TODO: ebulgakov - will update it manually
+    // this.activeLayerIndex = to;
   }
 
   /**
@@ -348,7 +349,7 @@ class LayerManager implements LayerManagerIface {
     };
     this._activeLayer.fire(le);
 
-    console.log("added", e.target, "to", this._activeLayer);
+    // console.log("added", e.target, "to", this._activeLayer);
   }
 
   /**
